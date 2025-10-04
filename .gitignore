@@ -1,0 +1,61 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.env/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_convert/
+.profile_default/
+.DS_Store
+
+# Caches
+*.cache/
+*.mypy_cache/
+*.pytest_cache/
+.pytype/
+
+# -------------------------
+# LaTeX build artifacts
+# -------------------------
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.run.xml
+
+# -------------------------
+# OS / Editor
+# -------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.code-workspace
+
+# -------------------------
+# Project-specific
+# -------------------------
+# If you generate large intermediate data or exports, list them here.
+# Keep final figures and the source .tex tracked.
+# data/*        # uncomment ONLY if you must NOT commit the dataset
